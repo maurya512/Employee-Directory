@@ -5,19 +5,16 @@ import axios from "axios";
 export default{
     // a function that returns the api call for an employee randomly
     getRandomEmployee: function() {
-        return axios.get("");
+        return axios.get("https://randomuser.me/api/");
     },
-    // a function that returns the api call for an employee searched by name
-    getEmployeeByName: function() {
-        return axios.get("");
+    // a function that returns the api call for an employee searched by nationality
+    getEmployeeByNat: function(nat) {
+        return axios.get("https://randomuser.me/api/?nat=" + nat);
     },
-    // a function that returns the api call for an employee searched by city
-    getEmployeeByCity: function () {
-        return axios.get("");
+    // a function that returns the api call for an employee searched by gender
+    getEmployeeByGender: function (gender) {
+        return axios.get("https://randomuser.me/api/?gender=" + gender);
     },
-    // a function that returns the api call for an employee by age
-    getEmployeeByAge: function () {
-        return axios.get("");
-    }
+    
 };
 
