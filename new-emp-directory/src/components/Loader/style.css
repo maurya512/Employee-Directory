@@ -14,7 +14,7 @@
         border: 1px;
         border-radius: 15px;
         border-color: black;
-        /* grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% ; */
+        grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% ;
         grid-template-rows: 15px; 
         background-color: white;
     }
